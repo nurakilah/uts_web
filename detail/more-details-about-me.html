@@ -6,26 +6,74 @@
     <title>Biodata Akila</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"><body>
+	
     <style>
+body, ul{
+	margin: 0;
+	padding:0;
+}
+
+nav {
+    background: rgb(224, 143, 157); /* Warna latar belakang navigasi */
+    position: fixed; /* Membuat navigasi tetap di atas saat menggulir */
+    z-index: 1; /* Mengatur lapisan z-index agar navigasi di atas konten lain */
+    width: 100%; /* Memastikan navigasi mengambil lebar penuh */
+}
+
+nav ul {
+    margin: 0 auto; /* Mengatur margin untuk pusat */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    padding: 30px; /* Menambahkan padding pada navigasi */
+}
+
+nav ul li {
+    display: inline-block; /* Menampilkan item navigasi dalam satu baris */
+    margin: 0 15px; /* Jarak antar item navigasi */
+    padding: 0; /* Menghapus padding default */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+    letter-spacing: 1px; /* Menambahkan jarak antar huruf */
+    font-size: 14px; /* Ukuran font untuk item navigasi */
+}
+
+li.empty{
+	width: 90px;
+	border-top: 1px solid white;
+	top:-5px;
+	position: relative; 
+}
+
+nav li a{
+	text-decoration: none;
+	color:white;
+
+}
    body {
-    font-family: Arial, sans-serif;
-    background-color: rgb(243, 199, 207);
+    font-family: "IBM Plex Serif", serif;
+    background:linear-gradient(to bottom,rgb(244, 206, 222), rgb(224, 143, 157) 40%);
     margin: 0;
     max-inline-size: none;
+    color: white;
+    
 
     
 }
 
 h1 {
-    font-size: 75px;
+    font-size: 50px;
     text-align: center;
-    background-color: #DBEBF4;
     padding: 8px 0;
+    font-family: "Emilys Candy", serif;
+    color: black;
+    margin-top: 70px;
 }
 
 h2 {
     font-size: 26px;
     margin-bottom: 10px; /* Jarak bawah untuk sub-judul */
+    
+    
 }
 
 section {
@@ -46,28 +94,47 @@ footer {
     color: #888;
 }
 
-.button {
-    border: 1px solid black;
-    font-size: 15px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
-    margin-top: 40px;
-    display: inline-block;
-    transition: background 0.5s ease-in-out;
+.button{
+	border: 1px solid  rgb(249, 247, 247);
+	font-size: 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: rgb(227, 40, 68);
+	padding: 10px 20px;
+	margin-top:40px;
+	display: inline-block;
+	transition: background 0.5s ease-in-out;
 }
+.button:hover{
+	background:rgb(234, 137, 153);
+	color: white; 
 
-.button:hover {
-    background: #0a0a0a;
-    color: white;
+}
+figcaption{
+	font-size: 10px;
+	margin-top: 10px
 
+}
+figcaption p{
+color: rgb(244, 174, 174);
 }
 
 
     </style>
 </head>
 <body>
+    <nav>
+		<ul >
+			<li><a href="#contact">contact</a></li>
+			<li><a href="#skill">skill</a></li>
+			<li><a href="#biodata">biodata</a></li>
+			<li class="empty"></li>
+			<li><a href="#desain">desain</a></li>
+			<li><a href="https://www.instagram.com/qy_loveee" target="_blank">instagram</a></li>
+			<li><a href="https://akilaahhh.netlify.app/" target="_blank">linkedin</a></li>
+
+		</ul>
+	</nav> <br>
     <header>
         <h1>Welcome To My Portofolio</h1>
     </header>

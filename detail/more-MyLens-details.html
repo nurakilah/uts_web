@@ -2,50 +2,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>More About Sunsets and the Beach</title>
+    <title>Biodata Akila</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
-</head>
-<style>
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"><body>
+	
+    <style>
+body, ul{
+	margin: 0;
+	padding:0;
+}
 
-    h1{
-        font-size: 60px;
-        text-align: center;
-        background-color:#DBEBF4;
-    }
+nav {
+    background: rgb(224, 143, 157); /* Warna latar belakang navigasi */
+    position: fixed; /* Membuat navigasi tetap di atas saat menggulir */
+    z-index: 1; /* Mengatur lapisan z-index agar navigasi di atas konten lain */
+    width: 100%; /* Memastikan navigasi mengambil lebar penuh */
+}
 
+nav ul {
+    margin: 0 auto; /* Mengatur margin untuk pusat */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+    padding: 30px; /* Menambahkan padding pada navigasi */
+}
 
-    body {
-        font-family:unset;
-        font-size: 20px;
-        background-color: rgb(243, 199, 207);
-    }
+nav ul li {
+    display: inline-block; /* Menampilkan item navigasi dalam satu baris */
+    margin: 0 15px; /* Jarak antar item navigasi */
+    padding: 0; /* Menghapus padding default */
+    text-transform: uppercase; /* Mengubah teks menjadi huruf kapital */
+    letter-spacing: 1px; /* Menambahkan jarak antar huruf */
+    font-size: 14px; /* Ukuran font untuk item navigasi */
+}
 
-    footer {
-        text-align: center;
-        margin-top: 20px;
-        font-size: 14px;
-        color: #888;
-    }
-    .button {
-            border: 1px solid black;
-            font-size: 15px;
-            border-radius: 20px;
-            text-decoration: none;
-            color: black;
-            padding: 10px 20px;
-            margin-top: 40px;
-            display: inline-block;
-            transition: background 0.5s ease-in-out;
-        }
+li.empty{
+	width: 90px;
+	border-top: 1px solid white;
+	top:-5px;
+	position: relative; 
+}
 
-        .button:hover {
-            background: #0a0a0a;
-            color: white;
-        }
+nav li a{
+	text-decoration: none;
+	color:white;
+
+}
+   body {
+    font-family: "IBM Plex Serif", serif;
+    background:linear-gradient(to bottom,rgb(244, 206, 222), rgb(224, 143, 157) 40%);
+    margin: 0;
+    max-inline-size: none;
+    color: white;
+    
+
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 8px 0;
+    font-family: "Emilys Candy", serif;
+    color: black;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 10px; /* Jarak bawah untuk sub-judul */
+    
+    
+}
+
+section {
+    margin: 25px 0; /* Margin untuk memberi jarak antar section */
+    text-align: left; /* Mengatur teks dalam section agar rata kiri */
+    max-width: 600px; /* Mengatur lebar maksimum section */
+    padding-left: 100px; /* Menggeser konten sedikit ke kanan */
+}
+p {
+    margin: 5px 0; /* Mengurangi jarak vertikal antar paragraf */
+    padding: 35px;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #fdfbfb;
+}
+
+.button{
+	border: 1px solid  rgb(227, 40, 68);
+	font-size: 15px;
+	border-radius: 20px;
+	text-decoration: none;
+	color: rgb(227, 40, 68);
+	padding: 10px 20px;
+	margin-top:40px;
+	display: inline-block;
+	transition: background 0.5s ease-in-out;
+}
+.button:hover{
+	background:rgb(234, 137, 153);
+	color: white; 
+
+}
+figcaption{
+	font-size: 10px;
+	margin-top: 10px
+
+}
+figcaption p{
+color: white;
+}
+
+    
+   
+</style>
    
 </style>
 <body>
+    <nav>
+		<ul >
+			<li><a href="#contact">contact</a></li>
+			<li><a href="#skill">skill</a></li>
+			<li><a href="#biodata">biodata</a></li>
+			<li class="empty"></li>
+			<li><a href="#desain">desain</a></li>
+			<li><a href="https://www.instagram.com/qy_loveee" target="_blank">instagram</a></li>
+			<li><a href="https://akilaahhh.netlify.app/" target="_blank">linkedin</a></li>
+
+		</ul>
+	</nav> <br>
     <header>
         <h1>External Moments Through My Lens</h1>
     </header>
@@ -53,9 +144,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    
-                    <p>As someone who deeply loves the world of photography, I find beauty in every corner of everyday life. Through the lens of my camera, I express my admiration for the stunning landscapes, from the mesmerizing sky roads adorned with vibrant colors at sunset to the twinkling lights at night, creating an unforgettable magical atmosphere. The beach, with its soothing waves and sunsets radiating golden light, serves as an endless source of inspiration, providing opportunities to capture beautiful moments that I can cherish forever. I also enjoy exploring simple beauties, such as tall trees standing beneath a bright blue sky or slowly drifting clouds, adding a dramatic touch to every photo I take. I often post my work on my Instagram account, where each shot becomes a way for me to celebrate the wonders of the world around me. With every image produced, I feel increasingly connected to nature and to myself. <br> <br> Photography also serves as a form of storytelling for me, capturing not just an image but the emotions and moments behind it. Every click of the shutter tells a unique narrative—whether it’s the calmness of a quiet morning, the vibrant energy of a bustling city, or the serenity of a secluded beach. Through these photos, I aim to convey feelings that words cannot always express, sharing a deeper part of myself with others. Each photograph becomes a silent reflection of my perspective, where I invite others to see the world through my eyes, discovering the beauty in both the grand and the ordinary. <br><br> Additionally, photography allows me to slow down and appreciate the present moment. In a world that often feels fast-paced and overwhelming, taking the time to focus on a single scene helps me find peace. It teaches me to observe the small details—how light falls on an object, how shadows shift, or how a cloud moves across the sky. These moments of stillness remind me of the importance of mindfulness, of being fully present in each moment. Through photography, I can capture not only memories but also the emotions tied to them, creating a lasting visual diary of my journey through life.</p>
-                     <a href="../index.html" class="button">Back to Home</a> <!-- Tombol untuk kembali ke halaman utama -->
+                     <p>As someone who deeply loves the world of photography, I find beauty in every corner of everyday life. Through the lens of my camera, I express my admiration for the stunning landscapes, from the mesmerizing sky roads adorned with vibrant colors at sunset to the twinkling lights at night, creating an unforgettable magical atmosphere. The beach, with its soothing waves and sunsets radiating golden light, serves as an endless source of inspiration, providing opportunities to capture beautiful moments that I can cherish forever. I also enjoy exploring simple beauties, such as tall trees standing beneath a bright blue sky or slowly drifting clouds, adding a dramatic touch to every photo I take. I often post my work on my Instagram account, where each shot becomes a way for me to celebrate the wonders of the world around me. With every image produced, I feel increasingly connected to nature and to myself. <br> <br> Photography also serves as a form of storytelling for me, capturing not just an image but the emotions and moments behind it. Every click of the shutter tells a unique narrative—whether it’s the calmness of a quiet morning, the vibrant energy of a bustling city, or the serenity of a secluded beach. Through these photos, I aim to convey feelings that words cannot always express, sharing a deeper part of myself with others. Each photograph becomes a silent reflection of my perspective, where I invite others to see the world through my eyes, discovering the beauty in both the grand and the ordinary. <br><br> Additionally, photography allows me to slow down and appreciate the present moment. In a world that often feels fast-paced and overwhelming, taking the time to focus on a single scene helps me find peace. It teaches me to observe the small details—how light falls on an object, how shadows shift, or how a cloud moves across the sky. These moments of stillness remind me of the importance of mindfulness, of being fully present in each moment. Through photography, I can capture not only memories but also the emotions tied to them, creating a lasting visual diary of my journey through life.</p> <br>
+                    <a href="../index.html" class="button">Back to Home</a> <!-- Tombol untuk kembali ke halaman utama -->
                 </div>
             </div>
         </div>
